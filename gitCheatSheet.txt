@@ -23,6 +23,9 @@ git reset --hard => dicards/destroys all the changes you made in the current fil
 git reset --hard HEAD^ => redirects the HEAD pointer reference to the last commit and also removes the earlier ref to which HEAD was pointing
 #######################Reset#######################
 
-#######################New command##################
+#######################delete branch##################
+git branch -d branch_name => deletes a local branch
+git branch -D branch_name => deletes a local branch without getting warning for unstage files
 
-#######################New command#######################
+git push <remote_name> --delete <branch_name> => deletes a remote branch; remote name is usually origin
+#######################delete branch#######################
