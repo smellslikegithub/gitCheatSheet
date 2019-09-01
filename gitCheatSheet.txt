@@ -1,0 +1,28 @@
+
+#######################stashing#######################
+git stash list => Shows the list of all the stashes you have made with stash id's
+git stash clear => clear all the stashes you have in the stash list
+git stash save "Message" => Stash/keep all you changes that you have made in the file safe in a stash. Your changes will dissappear but they are not deleted, but rather kept safe. To prevent git pull from fucking up, do this before hand
+git stash apply => applies all the stash to the working directory
+git stash pop => pops the first stash in list, and applies it in the working directory
+#######################stashing#######################
+
+
+#######################checkout#######################
+git checkout -- <filename> => discard changes made in the working directory of the current file
+git checkout -- . => discard all changes you made in all files
+#######################checkout#######################
+
+
+#######################Graph#######################
+git log --all --decorate --oneline --graph => To see a network diagram for git in git bash
+#######################Graph#######################
+
+#######################Reset#######################
+git reset --hard => dicards/destroys all the changes you made in the current file in the current workspace, and resets the head pointer to the last commit.
+git reset --hard HEAD^ => redirects the HEAD pointer reference to the last commit and also removes the earlier ref to which HEAD was pointing
+#######################Reset#######################
+
+#######################New command##################
+
+#######################New command#######################
