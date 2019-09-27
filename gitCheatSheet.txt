@@ -29,3 +29,7 @@ git branch -D branch_name => deletes a local branch without getting warning for 
 
 git push <remote_name> --delete <branch_name> => deletes a remote branch; remote name is usually origin
 #######################delete branch#######################
+
+#######################LOG##################
+git log origin/master master => To see the changes between the two heads after doing a git fetch
+#######################LOG#######################
